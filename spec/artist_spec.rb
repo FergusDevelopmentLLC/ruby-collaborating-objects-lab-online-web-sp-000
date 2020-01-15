@@ -50,7 +50,6 @@ describe 'Artist' do
       smells_like_teen_spirit = Song.new("Smells Like Teen Spirit")
       artist.add_song(song_one)
       artist.add_song(song_two)
-      binding.pry
       expect(artist.songs).to eq([song_one, song_two])
     end
   end
